@@ -21,6 +21,6 @@ class Api::V1::ExercisesController < ApplicationController
 
   private
   def exercise_params
-    params.permit(:name, :image, :trainings, :instruction)
+    params.permit(:name, :image, :trainings, :instruction, :exercise)
   end  
 end
